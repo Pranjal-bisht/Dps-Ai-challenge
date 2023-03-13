@@ -26,6 +26,7 @@ def run():
          "Monat", (1,2,3,4,5,6,7,8,9,10,11,12)
     )
 
+    # Formatting input values in form of input to trained model
     en_cat = 2
     if options_for_category == 'Alkoholunf√§lle':
        en_cat = 0
@@ -43,7 +44,7 @@ def run():
     
     input_data = np.array(input_data)
      
-    
+    # loading the model using pickle
     with open('C:/files/Dps-Ai-challenge/deployment/model.pkl', 'rb') as f:
          model = pickle.load(f)
 
@@ -56,6 +57,8 @@ def run():
        print(input_data)  
        # Make a prediction
        prediction = model.predict(input_data)
+
+       # Displaying the historical trends to the user based no the categories selected
        if input_data[0][0]== 0:
           st.image(Image.open('C:/files/Dps-Ai-challenge/Alkoholunfalle.png'))
        elif input_data[0][1] == 1:
