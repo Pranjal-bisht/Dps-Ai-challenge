@@ -45,7 +45,7 @@ def main():
     input_data = np.array(input_data)
      
     # loading the model using pickle
-    with open('C:/files/Dps-Ai-challenge/model.pkl', 'rb') as f:
+    with open('model.pkl', 'rb') as f:
          model = pickle.load(f)
 
     
@@ -59,11 +59,11 @@ def main():
 
        # Displaying the historical trends to the user based no the categories selected
        if input_data[0][0]== 0:
-          st.image(Image.open('C:/files/Dps-Ai-challenge/Alkoholunfalle.png'))
+          st.image(Image.open('Alkoholunfalle.png'))
        elif input_data[0][1] == 1:
-          st.image(Image.open('C:/files/Dps-Ai-challenge/Fluchtunfälle.png'))
+          st.image(Image.open('Fluchtunfälle.png'))
        else :
-          st.image(Image.open('C:/files/Dps-Ai-challenge/Verkehrsunfälle.png'))
+          st.image(Image.open('Verkehrsunfälle.png'))
 
        st.write('The forecasted number of accidents are' , int(prediction[0]))
 
