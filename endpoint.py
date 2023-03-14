@@ -26,7 +26,7 @@ def endpoint():
       input_arr = np.array(input_arr) 
 
       # loading the model using pickle
-      with open('C:/files/Dps-Ai-challenge/model.pkl', 'rb') as f:
+      with open('model.pkl', 'rb') as f:
             model = pickle.load(f)
 
       # Make a prediction using the ML model
@@ -44,4 +44,4 @@ def endpoint():
 
 if __name__ == '__main__':
     # Start the Flask app
-    app.run(debug=False)
+    app.run(debug=False, host='0.0.0.0')
