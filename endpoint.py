@@ -10,13 +10,12 @@ with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Define the endpoint
-@app.route('/endpoint', methods=['POST'])
+@app.route('/endpoint', methods=['GET','POST'])
 def endpoint():
    # Get the JSON data from the request
    data = request.get_json()
 
    # Preprocess the data (e.g. scale, one-hot encode, etc.)
-#    print(data)
    input_arr = [[int(0),int(0),int(data['year']),int(data['month'])]]
    input_arr = np.array(input_arr) 
 
@@ -39,4 +38,4 @@ def endpoint():
 
 if __name__ == '__main__':
     # Start the Flask app
-    app.run(debug=True)
+    app.run(debug=False)

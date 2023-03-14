@@ -4,3 +4,4 @@ xgboost
 numpy
 flask
 scikit-learn
+gunicorn
