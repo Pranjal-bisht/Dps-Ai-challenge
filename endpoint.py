@@ -9,6 +9,11 @@ app = Flask(__name__)
 with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
+# Define home route
+@app.route("/")
+def home():
+    return "HELLO"
+
 # Define the endpoint
 @app.route('/endpoint', methods=['POST'])
 def endpoint():
