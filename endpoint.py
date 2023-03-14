@@ -10,7 +10,7 @@ with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Define the endpoint
-@app.route('/endpoint', methods=['GET','POST'])
+@app.route('/endpoint', methods=['POST'])
 def endpoint():
    # Get the JSON data from the request
    data = request.get_json()
