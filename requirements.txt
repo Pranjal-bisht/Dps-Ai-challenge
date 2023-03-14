@@ -3,4 +3,3 @@ pandas
 xgboost
 numpy
 flask
-pickle
