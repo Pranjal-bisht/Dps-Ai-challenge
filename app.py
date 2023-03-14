@@ -3,10 +3,10 @@ import pandas as pd
 import pickle
 import numpy as np
 from PIL import Image
-
+import json
 
 # Create a function to display the UI
-def run():
+def main():
     st.title("Accident prediction system")
 
     # Add inputs for the user to specify values
@@ -39,17 +39,16 @@ def run():
     elif options_for_accident == 'mit Personensch√§den':
        en_type = 1
 
-    # Create a Pandas dataframe with the inputs
+    # Create a list of list
     input_data = [[en_cat, en_type, int(year),int(options_for_month)]]
     
     input_data = np.array(input_data)
      
     # loading the model using pickle
-    with open('C:/files/Dps-Ai-challenge/deployment/model.pkl', 'rb') as f:
+    with open('C:/files/Dps-Ai-challenge/model.pkl', 'rb') as f:
          model = pickle.load(f)
 
     
-
     # Display the prediction
     st.subheader("Prediction")
 
@@ -71,4 +70,7 @@ def run():
 
 
 if __name__ == '__main__':
-    run()
+    main()
+   #  st.server.set_page_config(page_title="Prediction API")
+
+   #  st.server.server_request('/endpoint', method='POST', data=json.dumps(input_data))
