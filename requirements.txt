@@ -95,7 +95,6 @@ et-xmlfile==1.1.0
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
 fastjsonschema @ file:///tmp/build/80754af9/python-fastjsonschema_1620414857593/work/dist
 filelock @ file:///opt/conda/conda-bld/filelock_1647002191454/work
-Fiona @ file:///D:/files/Vector-Map-Generation-from-Aerial-Imagery-using-Deep-Learning-GeoSpatial-UNET/Fiona-1.8.21-cp39-cp39-win_amd64.whl
 flake8 @ file:///tmp/build/80754af9/flake8_1620776156532/work
 Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
 flatbuffers==1.12
@@ -104,7 +103,6 @@ frozenlist @ file:///C:/ci/frozenlist_1637767271796/work
 fsspec @ file:///opt/conda/conda-bld/fsspec_1647268051896/work
 future @ file:///C:/ci/future_1607568713721/work
 gast==0.4.0
-GDAL @ file:///D:/files/Vector-Map-Generation-from-Aerial-Imagery-using-Deep-Learning-GeoSpatial-UNET/GDAL-3.4.3-cp39-cp39-win_amd64.whl
 gensim @ file:///C:/ci/gensim_1646825438310/work
 gitdb==4.0.10
 GitPython==3.1.30
