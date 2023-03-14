@@ -58,7 +58,13 @@ The files consist of a list of product listings in csv format with 9 columns. We
 
 
 ## Exploratory Data Analysis ##
+![1](https://user-images.githubusercontent.com/58468853/225127497-05141808-c9f6-464b-870b-4821ad5f1763.png)
+![2](https://user-images.githubusercontent.com/58468853/225127544-9c06e706-88de-4c23-b79f-9c818e77ed1e.png)
 
+![3](https://user-images.githubusercontent.com/58468853/225127568-357ad0cc-0612-4707-956f-24566a1721a8.png)
+![4](https://user-images.githubusercontent.com/58468853/225127593-5327502d-672e-4198-b53d-d81ec8f0365e.png)
+![5](https://user-images.githubusercontent.com/58468853/225127609-7cbbafee-0a19-4f92-ae27-b59f7753cf8f.png)
+![6](https://user-images.githubusercontent.com/58468853/225127628-18cf3a35-1f10-4dea-8158-497396f92f8e.png)
 
 ## Approach ##
 <br/>
@@ -70,18 +76,25 @@ The files consist of a list of product listings in csv format with 9 columns. We
 
 # Machine Learning Work Flow:
 
-![image]()
- 
+
+ ![flow](https://user-images.githubusercontent.com/58468853/225127835-051ff3fe-5e8d-4488-9424-4beee0bf42d5.JPG)
+
 
 ## Architecture ##
-![image]()
+
+![model architecture](https://user-images.githubusercontent.com/58468853/225127876-2951cd53-478d-4953-bd74-58102a145b7b.JPG)
+
 
 ## Model Training & Evaluation ##
-![image]()
+
 
 ## Model deployment using Flask ##
-![image]()
+![website](https://user-images.githubusercontent.com/58468853/225128058-6913ae4e-f934-4f6c-9c2b-dcacafe80eb4.JPG)
 
-# Website deployed on AWS:
-![image]()
 
+# Website deployed on Streamlit:
+![webapp](https://user-images.githubusercontent.com/58468853/225128038-01597c5f-0f09-4a62-b332-455a9d03ac6f.JPG)
+
+# Links:
+website : https://pranjal-bisht-dps-ai-challenge-app-pe1c2h.streamlit.app/
+endpoint : http://ec2-13-50-14-108.eu-north-1.compute.amazonaws.com:5000/endpoint
