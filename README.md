@@ -24,6 +24,7 @@ To Use Machine Learning to predict No. of accidents, vizualize historical trends
 - [Website deployed on Streamlit](#Website-deployed-on-Streamlit)
 - [Endpoint API test](#Endpoint-API-test)
 - [Links](#Links)
+- [Mission Completed](# Mission-Completed)
 
 # Technologies Used:
 <div align="center">
@@ -114,3 +115,6 @@ Here, I did some data clearning like considering only data before 2021, taking f
 ## Links: ##
 ## Website : https://pranjal-bisht-dps-ai-challenge-app-pe1c2h.streamlit.app/
 ## Endpoint : http://ec2-13-50-14-108.eu-north-1.compute.amazonaws.com:5000/endpoint
+
+## Mission Completed ##
+![mission 3](https://user-images.githubusercontent.com/58468853/225218687-899dff8f-0d87-42df-acb7-14c99da71803.jpeg)
