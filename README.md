@@ -69,8 +69,8 @@ Here, I did some data clearning like considering only data before 2021, taking f
 ![image](https://user-images.githubusercontent.com/58468853/225210587-5e0662e0-8964-4d7a-8b21-64bcc40cfd04.png)
 ![image](https://user-images.githubusercontent.com/58468853/225210617-69fea38b-25fb-43ee-9af4-a4b4b40032ed.png)
 
-# Result: No. of accident per category were highest of "Verkehrsunfälle" ( ~700 ) and lowest of "Alkoholunfälle" ( ~500 ) and 
-# No. of accident per accident type were highest of "insgesamt" ( ~750 ) and lowest of "mit Personenschäden" ( ~250 )
+## Result: No. of accident per category were highest of "Verkehrsunfälle" ( ~700 ) and lowest of "Alkoholunfälle" ( ~500 ) and 
+## No. of accident per accident type were highest of "insgesamt" ( ~750 ) and lowest of "mit Personenschäden" ( ~250 )
 
 # Approach #
 <br/>
@@ -89,7 +89,7 @@ Here, I did some data clearning like considering only data before 2021, taking f
 ## Model Training & Evaluation ##
 ![image](https://user-images.githubusercontent.com/58468853/225213464-3ed2a1af-a59b-4871-868c-03c3b5961aef.png)
 
-## I tried a lot of models Linear regression, Random Forest ( RMSE : 183 ), XGBoost ( RMSE : 172 ) and I failed to implement Fbprohet due to some conflicts and errors of dependencies like cmdstanpy, So, I made the final model pickle with XGBOOST trained on whole data.
+## I tried a lot of models Linear regression, Random Forest ( RMSE : 183 ), XGBoost ( RMSE : 172 ) and I failed to implement Fbprohet due to some conflicts and errors ## of dependencies like cmdstanpy, So, I made the final model pickle with XGBOOST trained on whole data.
 
 ## Historical Trends ##
 
