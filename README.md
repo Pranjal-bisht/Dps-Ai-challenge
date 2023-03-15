@@ -16,13 +16,13 @@ To Use Machine Learning to predict No. of accidents, vizualize historical trends
 - [Problem Description](#Problem-description)
 - [Data and Features](#Data-and-Features)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Machine Learning Project Work Flow](#Machine Learning Project Work Flow)
+- [Machine Learning Project Work Flow](#Machine-Learning-Project-Work-Flow)
 - [Architecture](#Architecture)
 - [Model Training & Evaluation](#Architecture)
-- [Historical Trends](#Historical Trends)
+- [Historical Trends](#Historical-Trends)
 - [Model deployment using Flask](#Model-deployment-using-Flask)
-- [Website deployed on Streamlit](#Website deployed on Streamlit)
-- [Endpoint API test](#Endpoint API test)
+- [Website deployed on Streamlit](#Website-deployed-on-Streamlit)
+- [Endpoint API test](#Endpoint-API-test)
 - [Links](#Links)
 
 # Technologies Used:
