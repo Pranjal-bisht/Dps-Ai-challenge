@@ -58,13 +58,13 @@ The files consist of a list of product listings in csv format with 9 columns. We
 
 
 ## Exploratory Data Analysis ##
-![1](https://user-images.githubusercontent.com/58468853/225127497-05141808-c9f6-464b-870b-4821ad5f1763.png)
-![2](https://user-images.githubusercontent.com/58468853/225127544-9c06e706-88de-4c23-b79f-9c818e77ed1e.png)
+![image](https://user-images.githubusercontent.com/58468853/225210375-e9b6ff1a-b7c1-452e-baf2-5ac01fde51d4.png)
+![image](https://user-images.githubusercontent.com/58468853/225210418-31300d6d-0e51-4953-8f12-3fd3f70dfada.png)
 
-![3](https://user-images.githubusercontent.com/58468853/225127568-357ad0cc-0612-4707-956f-24566a1721a8.png)
-![4](https://user-images.githubusercontent.com/58468853/225127593-5327502d-672e-4198-b53d-d81ec8f0365e.png)
-![5](https://user-images.githubusercontent.com/58468853/225127609-7cbbafee-0a19-4f92-ae27-b59f7753cf8f.png)
-![6](https://user-images.githubusercontent.com/58468853/225127628-18cf3a35-1f10-4dea-8158-497396f92f8e.png)
+![image](https://user-images.githubusercontent.com/58468853/225210491-80e749b7-78f4-4640-8972-6c006057c778.png)
+![image](https://user-images.githubusercontent.com/58468853/225210532-f6a5cc93-2b19-4863-a502-a69a193801a0.png)
+![image](https://user-images.githubusercontent.com/58468853/225210587-5e0662e0-8964-4d7a-8b21-64bcc40cfd04.png)
+![image](https://user-images.githubusercontent.com/58468853/225210617-69fea38b-25fb-43ee-9af4-a4b4b40032ed.png)
 
 ## Approach ##
 <br/>
@@ -97,4 +97,5 @@ The files consist of a list of product listings in csv format with 9 columns. We
 
 # Links:
 website : https://pranjal-bisht-dps-ai-challenge-app-pe1c2h.streamlit.app/
+<br/>
 endpoint : http://ec2-13-50-14-108.eu-north-1.compute.amazonaws.com:5000/endpoint
