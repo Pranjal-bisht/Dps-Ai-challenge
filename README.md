@@ -24,7 +24,7 @@ To Use Machine Learning to predict No. of accidents, vizualize historical trends
 - [Website deployed on Streamlit](#Website-deployed-on-Streamlit)
 - [Endpoint API test](#Endpoint-API-test)
 - [Links](#Links)
-- [Mission Completed](# Mission-Completed)
+- [Mission Completed](#Mission-Completed)
 
 # Technologies Used:
 <div align="center">
