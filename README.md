@@ -16,13 +16,14 @@ To Use Machine Learning to predict No. of accidents, vizualize historical trends
 - [Problem Description](#Problem-description)
 - [Data and Features](#Data-and-Features)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Machine Learning Project Work Flow](# Machine Learning Project Work Flow)
+- [Machine Learning Project Work Flow](#Machine Learning Project Work Flow)
 - [Architecture](#Architecture)
 - [Model Training & Evaluation](#Architecture)
-- [Historical Trends](# Historical Trends)
+- [Historical Trends](#Historical Trends)
 - [Model deployment using Flask](#Model-deployment-using-Flask)
-- [Website deployed on Streamlit](# Website deployed on Streamlit)
-- [Links](# Links)
+- [Website deployed on Streamlit](#Website deployed on Streamlit)
+- [Endpoint API test](#Endpoint API test)
+- [Links](#Links)
 
 # Technologies Used:
 <div align="center">
@@ -105,6 +106,10 @@ Here, I did some data clearning like considering only data before 2021, taking f
 ## Model deployment using Flask ##
 ## I have deployed the endpoint on Aws ec2 seperately, ( The results of the testing of endpoint are attached below )
 ![website](https://user-images.githubusercontent.com/58468853/225128058-6913ae4e-f934-4f6c-9c2b-dcacafe80eb4.JPG)
+
+## Endpoint API test ##
+
+![apitest](https://user-images.githubusercontent.com/58468853/225216128-516161ea-1dec-489a-bb88-3ffd45cbc1f8.jpeg)
 
 ## Links: ##
 ## Website : https://pranjal-bisht-dps-ai-challenge-app-pe1c2h.streamlit.app/
