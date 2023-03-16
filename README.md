@@ -3,6 +3,18 @@
 
 To Use Machine Learning to predict No. of accidents, vizualize historical trends and Create a web app to take inputs and display the predicted no. of accidents and also create an endpoint for the same accepting a post request.
 
+# Directory structure:
+
+#### final_model.ipynb : contains the model finally built.<br/>
+#### app.py : is the streamlit app<br/>
+#### endpoint.py : contains the flask endpoint deployed on aws<br/>
+#### data folder : contains the dataset.<br/>
+#### EDA.ipynb : contains the Exploratory data analysis.<br/>
+#### model.pkl : contains the pickle file used for deployment of ML model.<br/>
+#### model.ipynb : contains the different models an rough work I did like Fbprohphet and Linear regression etc.<br/>
+
+Rest are images used for Readme<br/>
+
 # How to get started
      You should have access to this private repository
      
